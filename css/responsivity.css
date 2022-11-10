@@ -1,0 +1,53 @@
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
+    .lista-menu {
+        flex-direction: column;
+    }
+    #icone-menu {
+        display: block;
+    }
+    .item-menu {
+        display: none;
+        text-align: center;
+    }
+    .ativar {
+        display: block;
+    }
+    .item-menu:hover {
+        text-align: center;
+        background-color: aquamarine;
+        width: 100vw;
+    }
+    .link-menu:hover {
+        text-align: center;
+        color: black;
+    }
+    .carrossel {
+        width: 100%;
+        height: 50vh;
+        position: relative;
+    }
+    .link-carrossel {
+        top: 90%;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .kit,
+    .bolos {
+        grid-template-columns: 1fr;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .img-bolos {
+        width: 80%;
+        height: 80%;
+    }
+    .div-bolos {
+        order: 1 !important;
+    }
+}

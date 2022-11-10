@@ -1,0 +1,33 @@
+.header {
+    min-height: 10vh;
+    width: 100%;
+    background-color: black;
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista-menu {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.3rem;
+}
+
+.link-menu:hover {
+    color: aqua;
+}
+
+.item-menu {
+    padding: 10px 15px;
+}
+
+.link-menu {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#icone-menu {
+    font-size: 2rem;
+    display: none;
+}
